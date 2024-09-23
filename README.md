@@ -5,12 +5,12 @@
 
 
 [백엔드]
-language : python
-framework :  Flask
-api : ...ing (restful api)
-서버 : nginx or apache
-형상관리 : git 
-ide : VSCODE
+language : python \n
+framework :  Flask \n 
+api : ...ing (restful api) \n
+서버 : nginx or apache \n
+형상관리 : git \n
+ide : VSCODE \n
 
 
 [AI 모델]
