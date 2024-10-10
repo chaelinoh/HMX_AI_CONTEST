@@ -1,3 +1,4 @@
+
 .app-container {
   display: flex;
   height: 100vh;
@@ -6,11 +7,15 @@
 .header {
   background-color: #333;
   color: white;
-  padding: 6px;
-  text-align: center;
+  padding: 10px;
+  text-align: left;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.content {
+  display: flex;
 }
 
 .video-list{
@@ -19,7 +24,7 @@
   padding: 10px;
   height: 100%;
   overflow-y: auto;
-  margin-top: 90px;
+  margin-top: 8px;
 }
 
 .video-list ul {
@@ -40,7 +45,7 @@
 .video-display {
   flex: 1;
   padding: 10px;
-  margin-top: 100px;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,13 +65,32 @@
   height: 100%;
 }
 
+.grid-item video {
+  width: 100%;
+  height: 100%;
+}
+
 .selected-video {
   text-align: center;
-  width: 80%;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .selected-video video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.empty-section {
+  flex: 1;
+  height: 90px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  background-color: #ddd;
+  align-items: center;
 }
